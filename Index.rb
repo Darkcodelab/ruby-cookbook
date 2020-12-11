@@ -18,3 +18,18 @@ array_range = array[1, 4]
 # puts " "
 # print "array_range: "
 # print array_range
+
+arr_negative_index = array[-1]
+#returns the last element from the array
+
+arr_first = arr.first
+#returns the first element of the array
+
+arr_last = arr.last
+#returns the last element of the array
+
+arr_take = arr.take(3)
+#returns the first 3 element of the array
+
+arr_drop = arr.drop(3)
+#return everything but first 3 elements of the array
